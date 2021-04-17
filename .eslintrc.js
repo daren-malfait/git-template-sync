@@ -5,6 +5,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: `module`,
+    requireConfigFile: false,
   },
   env: {
     browser: true,
